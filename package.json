@@ -1,0 +1,21 @@
+{
+    "name": "luhny",
+    "version": "1.4.0",
+    "description": "Validate your phone's IMEI using the Luhn algorithm!",
+    "main": "./src/index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angeldollface/luhny.git"
+    },
+    "keywords": [
+      "security",
+      "passwords"
+    ],
+    "type": "module",
+    "author": "Alexander Abraham (http://angeldollface.art)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/angeldollface/luhny/issues"
+    },
+    "homepage": "https://github.com/angeldollface/luhny#readme"
+  }
