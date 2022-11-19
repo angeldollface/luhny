@@ -65,6 +65,7 @@ $ npm install --save-dev luhny
 import * as luhny from 'luhny';
 
 function main(){
+  // A fake valid IMEI number.
   const testIMEI = '353879234252633';
   console.log(luhny.validateIMEI(testIMEI));
   // Should output 'true'!
