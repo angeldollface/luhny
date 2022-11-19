@@ -89,6 +89,10 @@ $ node .
 - Upload to GitHub.
 - Upload to NPM.
 
+### Version 1.1.0
+
+- Fixed some NPM keywords.
+
 ## NOTE :scroll:
 
 - *Luhny :iphone: :lock:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
