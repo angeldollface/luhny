@@ -6,6 +6,8 @@
 
 ## ABOUT :books:
 
+Every digital device has a unique identifier. This identifier is the "IMEI" number. One can validate whether this "IMEI" number is valid or not using the Luhn algorithm. This is my implementation of this algorithm in Javascript to check a phone's "IMEI" number.
+
 ## USAGE :hammer:
 
 ### Use *Luhny* in a Node.js project
