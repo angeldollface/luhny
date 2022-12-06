@@ -20,6 +20,14 @@ $ npm install --save-dev luhny
 
 Be sure to also add the `"type":"module"` flag to your project's manifest, `package.json`.
 
+### Use *Luhny* in a Node.js project with Typescript
+
+Add a file called `luhny.d.ts` to your project and put the following code inside it:
+
+```Typescript
+declare module 'luhny';
+```
+
 ### APIs
 
 *Luhny* offers the following functions:
@@ -97,6 +105,11 @@ $ node .
 ### Version 1.2.0
 
 - Added some type definitions for Typescript.
+- Updated documentation.
+
+### Version 1.3.0
+
+- Removed type definitions.
 - Updated documentation.
 
 ## NOTE :scroll:
