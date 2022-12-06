@@ -94,6 +94,11 @@ $ node .
 
 - Fixed some NPM keywords.
 
+### Version 1.2.0
+
+- Added some type definitions for Typescript.
+- Updated documentation.
+
 ## NOTE :scroll:
 
 - *Luhny :iphone: :lock:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
