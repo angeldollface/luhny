@@ -11,8 +11,8 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 ## LINKS :earth_americas:
 
 - Library implementation in Rust: [VIEW](https://github.com/angeldollface/luhny.rs)
-- Web app implementation in Vue.js:[VIEW](https://github.com/angeldollface/ceramic)
-- Web app implementation in Yew.rs:[VIEW](https://github.com/angeldollface/ceramic.rs)
+- Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
+- Web app implementation in Yew.rs: [VIEW](https://github.com/angeldollface/ceramic.rs)
 
 ## USAGE :hammer:
 
