@@ -6,7 +6,13 @@
 
 ## ABOUT :books:
 
-Every digital device has a unique identifier. This identifier is the "IMEI" number. One can validate whether this "IMEI" number is valid or not using the Luhn algorithm. This is my implementation of this algorithm in Javascript to check a phone's "IMEI" number.
+Every digital device has a unique identifier. This identifier is the "IMEI" number. One can validate whether this "IMEI" number is valid or not using the Luhn algorithm. This is my implementation of this algorithm in Javascript to check a device's "IMEI" number. Other implementations and web apps showcasing my implementations can be found in the section below.
+
+## LINKS :earth_americas:
+
+- Library implementation in Rust: [VIEW](https://github.com/angeldollface/luhny.rs)
+- Web app implementation in Vue.js:[VIEW](https://github.com/angeldollface/ceramic)
+- Web app implementation in Yew.rs:[VIEW](https://github.com/angeldollface/ceramic.rs)
 
 ## USAGE :hammer:
 
