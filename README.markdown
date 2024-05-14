@@ -6,33 +6,9 @@
 
 ## ABOUT :books:
 
-Every digital device has a unique identifier. This identifier is the "IMEI" number. One can validate whether this "IMEI" number is valid or not using the Luhn algorithm. This is my implementation of this algorithm in Javascript to check a device's "IMEI" number. Other implementations and web apps showcasing my implementations can be found in the section below.
-
-## LINKS :earth_americas:
-
-- Library implementation in Rust: [VIEW](https://github.com/angeldollface/luhny.rs)
-- Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
-- Web app implementation in Yew.rs: [VIEW](https://github.com/angeldollface/ceramic.rs)
+Every digital device has a unique identifier. This identifier is the "IMEI" number. One can validate whether this "IMEI" number is valid or not using the Luhn algorithm. This is my implementation of this algorithm in Javascript to check a device's "IMEI" number.
 
 ## USAGE :hammer:
-
-### Use *Luhny* in a Node.js project
-
-To use *Luhny* in a Node.js project, run this command in your project's root directory:
-
-```bash
-$ npm install --save-dev luhny
-```
-
-Be sure to also add the `"type":"module"` flag to your project's manifest, `package.json`.
-
-### Use *Luhny* in a Node.js project with Typescript
-
-Add a file called `luhny.d.ts` to your project and put the following code inside it:
-
-```Typescript
-declare module 'luhny';
-```
 
 ### APIs
 
@@ -52,49 +28,20 @@ declare module 'luhny';
 
 ### Example
 
-Here's a small example:
+- 1.) Create a new Typescript file.
+- 2.) Import *Luhny* from Deno's module repository:
 
-- 1.) Initialize a new Node.js project with the following command in a directory of your choosing:
+```Typescript
+import * as vulcheck from 'https://deno.land/x/luhny/mod.ts';
+```
+
+- 3.) You can now use any of the function signatures above by prepending `luhny.`:
+
+- 4.) You can then run the Typescript file with Deno using this command:
 
 ```bash
-$ npm init -y 
+deno run your_script.ts
 ```
-
-- 2.) Install *Luhny*:
-
-```bash
-$ npm install --save-dev luhny
-```
-
-- 3.) Be sure to add this line to your project's `package.json`:
-
-```JSON
-"type":"module",
-```
-
-- 4.) Create your `index.js` and put the following code inside it:
-
-```js
-// index.js
-import * as luhny from 'luhny';
-
-function main(){
-  // A fake valid IMEI number.
-  const testIMEI = '353879234252633';
-  console.log(luhny.validateIMEI(testIMEI));
-  // Should output 'true'!
-}
-
-main();
-```
-
-- 5.) Run the project:
-
-```bash
-$ node .
-```
-
-- 6.) Optional: If you're not sure how to use this project, check out the example project.
 
 ## CHANGELOG :black_nib:
 
@@ -117,6 +64,14 @@ $ node .
 
 - Removed type definitions.
 - Updated documentation.
+
+### Version 1.4.0
+
+- Rewrote the project in Typescript.
+- Migrated the project from Node.js to Deno.
+- Removed the `testAll` function.
+- Added unit tests for Deno.
+- Relicensed the project under the [DSL v1](https://github.com/angeldollface/doll-software-license).
 
 ## NOTE :scroll:
 

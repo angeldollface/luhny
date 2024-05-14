@@ -6,18 +6,11 @@ Licensed under the DSL v1.
 
 'use strict';
 
-// Checks whether the supplied character is
-// an integer. Returns a boolean depending on this. 
-export function isInt(subject: string): boolean {
-    let result: boolean = false;
-    if (isNaN(parseInt(subject))){
-        // Do nothing.
-    }
-    else {
-       result = true;
-    }
-    return result;
-}
+// A function to check whether a string
+// is an integer.
+export function isInt(expr: string): boolean{
+    return RegExp('[0-9]+').test(expr);
+  }
 
 // Checks whether the supplied IMEI string
 // only contains integers.
@@ -145,6 +138,8 @@ export function validateIMEI(imei: string): boolean{
     return result;
 }
 
+// Exports all
+// functions.
 export default {
     isInt,
     getLastItem,
