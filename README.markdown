@@ -1,6 +1,6 @@
 # LUHNY :iphone: :lock:
 
-![GitHub CI](https://github.com/angeldollface/luhny/actions/workflows/node.yml/badge.svg)
+![GitHub CI](https://github.com/angeldollface/luhny/actions/workflows/deno.yml/badge.svg)
 
 ***Validate your phone's IMEI using the Luhn algorithm! :iphone: :lock:***
 
@@ -76,4 +76,4 @@ deno run your_script.ts
 ## NOTE :scroll:
 
 - *Luhny :iphone: :lock:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
-- Licensed under the MIT license.
+- Licensed under the [DSL v1](https://github.com/angeldollface/doll-software-license).
