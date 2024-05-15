@@ -23,7 +23,7 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 - `convertNumberArrayToStringArray(arr)`: Because this is neccessary and we can't play fast and loose with types we *need* to convert between the arrays' types. 
 - `addImportantDoubleDigits(imei)`: Splits all the characters in the "important" numbers and adds them all together in a lump sum.
 - `getLastItem(arr)`: Gets the last item of a string array and returns it.
-- `validateIMEI(imei)`: Gets the check digit of your IMEI, adds the "important" and the "other" numbers together, subtracts the "mod 10" from 10 of that sum, makes a type conversion, compares the check digit and the calculated check digit, and returns true or false depending on whether they are equal or not.
+- `validateIMEI(imei)`: Gets the check digit of your IMEI, adds the "important" and the "other" numbers together, subtracts the "mod 10" from 10 of that sum, makes a type conversion, compares the check digit and the calculated check digit, and returns "true" or "false" depending on whether they are equal or not.
 
 
 ### Example
@@ -35,8 +35,8 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 import { functionName } 'https://deno.land/x/luhny/mod.ts';
 ```
 
-- 3.) You can now use any of the function signatures above.
-- 4.) You can then run the Typescript file with Deno using this command:
+- 3.) You can now use any of the functions listed above. (`functionName` represents any of the function signatures above.)
+- 4.) You can then run the Typescript file with Deno using this command (`your_script.ts` represents the path to your Typescript file.):
 
 ```bash
 deno run your_script.ts
