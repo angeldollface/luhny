@@ -32,11 +32,10 @@ Every digital device has a unique identifier. This identifier is the "IMEI" numb
 - 2.) Import *Luhny* from Deno's module repository:
 
 ```Typescript
-import * as vulcheck from 'https://deno.land/x/luhny/mod.ts';
+import { functionName } 'https://deno.land/x/luhny/mod.ts';
 ```
 
-- 3.) You can now use any of the function signatures above by prepending `luhny.`:
-
+- 3.) You can now use any of the function signatures above.
 - 4.) You can then run the Typescript file with Deno using this command:
 
 ```bash
@@ -72,6 +71,10 @@ deno run your_script.ts
 - Removed the `testAll` function.
 - Added unit tests for Deno.
 - Relicensed the project under the [DSL v1](https://github.com/angeldollface/doll-software-license).
+
+### Version 1.5.0
+
+- Fixed a critical typo with the example.
 
 ## NOTE :scroll:
 
